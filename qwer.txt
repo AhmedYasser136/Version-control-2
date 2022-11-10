@@ -1,0 +1,27 @@
+remove them locally and remotely:
+
+
+locally: 	git branch -d dev
+
+remotely:	git push origin :dev
+
+***********************************************
+
+list tag
+
+git tag list
+
+*****************************************************
+
+delete tag locally and remotely.
+
+locally: 	git tag -d v1.7
+
+remotely:	git push origin --delete v1.7
+******************************
+checkout another branch without
+commit changes
+
+step 1: git stash
+
+step 2: git chick out main
